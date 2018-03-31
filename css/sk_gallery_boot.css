@@ -1,0 +1,6 @@
+#menu.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
