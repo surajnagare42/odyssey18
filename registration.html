@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/bootswatch.css">-->
+    <link rel="stylesheet" href="css/bootstrapr.css">
+    <link rel="stylesheet" href="css/mystyler.css">
+</head>
+<body>
+<div class="container">
+    <div class="row text-center">
+        <div class="col-12 text-center">
+            <h1 style="margin-top: 20px;">Registration</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <form action="reg.php" method="post">
+
+                <div class="row">
+                    <div class="zoom">
+                        <label>Events</label>
+                        <select class="form-control" name="event">
+                            <option value="CS01">CS01 - CODEZILLA</option>
+                            <option value="CS02">CS02 - LAN GAMMING</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Note:&nbsp;</strong>For Multiple Events register multiple times.</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="zoom">
+                        <label>Name</label>
+                        <input name="name" type="text" class="form-control" placeholder="Leader Name for group event">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="zoom">
+                        <label>Email address</label>
+                        <input name="email" type="email" class="form-control" placeholder="Enter email">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="zoom">
+                        <label>Contact No.</label>
+                        <input name="mobile" type="text" maxlength="10" class="form-control" pattern="[0-9]+"
+                               placeholder="Enter your Contact No.">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="zoom">
+                        <label>College Name</label>
+                        <input name="coll" type="text" class="form-control" placeholder="Enter College name with city">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="zoom">
+                        <label>Group Members</label>
+                        <textarea name="members" rows="4"  class="form-control"
+                                  placeholder="Enter group member names (if any) seperated by commas"></textarea>
+                    </div>
+                </div>
+
+                <center>
+                    <button class="btn btn-primary" style="margin-bottom: 100px;width: 25%"><b>SUBMIT</b></button>
+                </center>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
